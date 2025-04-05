@@ -1,0 +1,52 @@
+.App {
+  margin: 4px 12px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap; /* Allows items to move to the next line */
+  gap: 16px; /* Adds space between cards */
+  overflow-y: auto; /* Enables vertical scrolling */
+  height: 100vh; /* Makes sure it takes full height */
+}
+
+
+.product-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.product-card img{
+  width: 60%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-img{
+  width: 200px;
+  height: 300px;
+}
+
+.Page-no{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page-number{
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
